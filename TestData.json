@@ -1,0 +1,13 @@
+[
+  {
+    "id": "6d367283-6ca7-4cd2-9e9b-5bfe96ff43f4",
+    "sellerID": 834567,
+    "name": "applepen",
+    "price": 775,
+    "statistics": {
+      "likes": 333,
+      "viewCount": 444,
+      "contacts": 667
+    }
+  }
+]
