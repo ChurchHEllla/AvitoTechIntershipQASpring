@@ -9,7 +9,7 @@ import (
 )
 
 // TestGetAdByIDSuccess проверяет успешное удаление объявления по ID
-func (suite *AdsAPITestSuiteV1) TestDeleteAdValid() {
+func (suite *AdsAPITestSuiteV2) TestDeleteAdValid() {
 	ad := CreateAdData(
 		suite.sellerID,
 		"smartphone Vivo",
@@ -41,7 +41,7 @@ func (suite *AdsAPITestSuiteV1) TestDeleteAdValid() {
 }
 
 // TestGetAdByIDNotFound проверяет обработку несуществующего ID
-func (suite *AdsAPITestSuiteV1) TestDeleteAdNotFound() {
+func (suite *AdsAPITestSuiteV2) TestDeleteAdNotFound() {
 	
 	deletedAds, err := loadDelTestAds("./utils/TestDataDeleted.json")
     assert.NoError(suite.T(), err)
@@ -70,7 +70,7 @@ func (suite *AdsAPITestSuiteV1) TestDeleteAdNotFound() {
 }
 
 // TestGetAdByIDInvalidFormat проверяет обработку некорректных форматов ID
-func (suite *AdsAPITestSuiteV1) TestDeleteAdInvalidFormat() {
+func (suite *AdsAPITestSuiteV2) TestDeleteAdInvalidFormat() {
     testCases := []struct {
         name string
         id   string

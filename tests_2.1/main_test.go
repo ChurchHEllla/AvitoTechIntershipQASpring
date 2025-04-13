@@ -23,3 +23,19 @@ func (suite *AdsAPITestSuiteV1) SetupTest() {
 func TestAdsAPISuiteV1(t *testing.T) {
 	suite.Run(t, new(AdsAPITestSuiteV1))
 }
+
+type AdsAPITestSuiteV2 struct {
+	suite.Suite
+	sellerID    int
+	client  *u.APIClient
+}
+
+func (suite *AdsAPITestSuiteV2) SetupTest() {
+	// Генерируем уникальный sellerID для тестов
+	suite.sellerID = BaseSellerID
+	//111111 + int(time.Now().Unix() % (888889))	
+	suite.client = u.NewAPIClient(BaseURL)	
+}
+func TestAdsAPISuiteV2(t *testing.T) {
+	suite.Run(t, new(AdsAPITestSuiteV2))
+}

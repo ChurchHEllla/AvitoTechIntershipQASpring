@@ -27,12 +27,12 @@ func (suite *AdsAPITestSuiteV1) TestGetAdByIDSuccess() {
 	err = json.NewDecoder(respGet.Body).Decode(&response)
 	assert.NoError(suite.T(), err)
     responseAd := response[0]
-	assert.Equal(suite.T(), testAd.Name, responseAd.Name)
-	assert.Equal(suite.T(), testAd.Price, responseAd.Price)
-	assert.Equal(suite.T(), testAd.SellerID, responseAd.SellerID)
-	assert.Equal(suite.T(), testAd.Statistics.Contacts, responseAd.Statistics.Contacts)
-	assert.Equal(suite.T(), testAd.Statistics.Likes, responseAd.Statistics.Likes)
-	assert.Equal(suite.T(), testAd.Statistics.ViewCount, responseAd.Statistics.ViewCount)
+	assert.Equal(suite.T(), testAd.Name, responseAd.Name, "name объявления должно совпадать")
+	assert.Equal(suite.T(), testAd.Price, responseAd.Price, "price объявления должно совпадать")
+	assert.Equal(suite.T(), testAd.SellerID, responseAd.SellerID, "sellerID объявления должно совпадать")
+	assert.Equal(suite.T(), testAd.Statistics.Contacts, responseAd.Statistics.Contacts, "contacts объявления должно совпадать")
+	assert.Equal(suite.T(), testAd.Statistics.Likes, responseAd.Statistics.Likes, "likes объявления должно совпадать")
+	assert.Equal(suite.T(), testAd.Statistics.ViewCount, responseAd.Statistics.ViewCount, "viewCount объявления должно совпадать")
 }
 
 // TestGetAdByIDNotFound проверяет обработку несуществующего ID
