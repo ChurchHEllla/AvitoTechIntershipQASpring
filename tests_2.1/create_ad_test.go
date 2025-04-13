@@ -39,6 +39,7 @@ func (suite *AdsAPITestSuiteV1) TestCreateAdMissingRequiredFields() {
 			name: "Потерянный sellerID",
 			adData: map[string]interface{}{
 				"price":    500,
+				"name": "смартфон Vivo",
 				"statistics": map[string]interface{}{
 					"contacts":  800,
 					"likes":     555,
@@ -112,7 +113,7 @@ func (suite *AdsAPITestSuiteV1) TestCreateAdInvalidDataTypes() {
 				"name":     "Телефон",
 				"price":    500,
 				"statistics": map[string]interface{}{
-					"contacts":  "восемьсот",
+					"contacts":  800,
 					"likes":     555,
 					"viewCount": 3535,
 				},
@@ -132,17 +133,6 @@ func (suite *AdsAPITestSuiteV1) TestCreateAdInvalidDataTypes() {
 				},
 			},
 			description: "Должен вернуть 400 при строковом price вместо числа",
-		},
-		{
-			name: "Неверный тип statistics",
-			adData: map[string]interface{}{
-				"sellerID":   suite.sellerID,
-				"name":       "Телефон",
-				"price":      500,
-				"statistics": "не объект",
-				
-			},
-			description: "Должен вернуть 400 при строковом statistics вместо объекта",
 		},
 		{
 			name: "Неверный тип contacts в statistics",

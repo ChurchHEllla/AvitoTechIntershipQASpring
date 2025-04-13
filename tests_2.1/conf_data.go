@@ -8,7 +8,7 @@ import (
 )
 var (
 	BaseURL = "https://qa-internship.avito.com"
-	BaseSellerID = 880055
+	BaseSellerID = 666666
 )
 
 func ExtractIDFromStatusResponse(input Ans) (string, error) {

@@ -50,6 +50,7 @@ func (suite *AdsAPITestSuiteV1) TestGetAdsBySellerBadRequest() {
     }{
         {"Отрицательный ID", "-400"},
 		{"Слишком большой ID", "999999009"},
+		{"Некорректный ID", "Charmander"},
     }
 
     for _, tc := range testCases {
