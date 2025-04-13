@@ -13,6 +13,7 @@ type APIClient struct {
 func NewAPIClient(baseURL string) *APIClient {
 	return &APIClient{
 		baseURL: baseURL,
+		client:  &http.Client{},
 	}
 }
 

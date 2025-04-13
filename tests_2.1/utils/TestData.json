@@ -1,0 +1,321 @@
+[
+  {
+    "id": "83b2a2f0-d92d-4280-ba5d-79346ec27107",
+    "sellerID": 880055,
+    "name": "mashroom",
+    "price": 530,
+    "statistics": {
+      "contacts": 54,
+      "likes": 145,
+      "viewCount": 2989
+    }
+  },
+  {
+    "id": "d9bfa684-f351-4cce-8065-d43749fcba68",
+    "name": "charmander",
+    "price": 10000,
+    "sellerId": 880055,
+    "statistics": {
+      "contacts": 43,
+      "likes": 123,
+      "viewCount": 23
+    }
+  },
+  {
+    "id": "660090df-ee15-4371-a481-3d086a164224",
+    "name": "Garage (beer)",
+    "price": 199,
+    "sellerId": 880055,
+    "statistics": {
+      "contacts": 5,
+      "likes": 7,
+      "viewCount": 132444
+    }
+  },
+  {
+    "id": "bc3f9b28-6a7a-44bf-a179-487be3f2f47b",
+    "sellerID": 800700,
+    "name": "Smartphone Vivo",
+    "price": 18000,
+    "statistics": {
+      "likes": 7,
+      "viewCount": 8,
+      "contacts": 9
+    }
+  },
+  {
+    "id": "6d367283-6ca7-4cd2-9e9b-5bfe96ff43f4",
+    "sellerID": 834567,
+    "name": "applepen",
+    "price": 775,
+    "statistics": {
+      "likes": 333,
+      "viewCount": 444,
+      "contacts": 667
+    }
+  },
+  {
+    "createdAt": "2025-04-12 23:34:13.470751 +0300 +0300",
+    "id": "75c219ed-2ec6-4a92-8daa-bdc67948d1ed",
+    "name": "Тестовое объявление для GET Success",
+    "price": 666777,
+    "sellerId": 3000,
+    "statistics": {
+      "contacts": 300,
+      "likes": 555,
+      "viewCount": 3535
+    }
+  },
+  {
+    "createdAt": "2025-04-12 23:44:20.957079 +0300 +0300",
+    "id": "39891eb0-06a8-48e7-a7fb-216806180377",
+    "name": "Тестовое объявление для GET Success",
+    "price": 666777,
+    "sellerId": 3000,
+    "statistics": {
+      "contacts": 300,
+      "likes": 555,
+      "viewCount": 3535
+    }
+  },
+  {
+    "createdAt": "2025-04-12 23:45:37.073304 +0300 +0300",
+    "id": "6e56fb1b-7a79-4de1-ad3c-0cf14176e90a",
+    "name": "Тестовое объявление для GET Success",
+    "price": 666777,
+    "sellerId": 3000,
+    "statistics": {
+      "contacts": 300,
+      "likes": 555,
+      "viewCount": 3535
+    }
+  },
+  {
+    "createdAt": "2025-04-12 23:45:53.892268 +0300 +0300",
+    "id": "d3616dcf-132f-4c62-93b4-f9b37d82cd20",
+    "name": "Тестовое объявление для GET Success",
+    "price": 666777,
+    "sellerId": 3000,
+    "statistics": {
+      "contacts": 300,
+      "likes": 555,
+      "viewCount": 3535
+    }
+  },
+  {
+    "createdAt": "2025-04-13 22:49:06.078046 +0300 +0300",
+    "id": "a18a30a0-2a47-4ff2-9355-c090943fe82b",
+    "name": "",
+    "price": 666777,
+    "sellerId": 1000,
+    "statistics": {
+      "contacts": 800,
+      "likes": 555,
+      "viewCount": 3535
+    }
+  },
+  {
+    "createdAt": "2025-04-13 22:49:06.31908 +0300 +0300",
+    "id": "fcc04f02-e723-49d9-9614-413e468076db",
+    "name": "Телефон без цены",
+    "price": 666777,
+    "sellerId": 0,
+    "statistics": {
+      "contacts": 800,
+      "likes": 555,
+      "viewCount": 3535
+    }
+  },
+  {
+    "createdAt": "2025-04-13 22:49:06.522938 +0300 +0300",
+    "id": "ef267434-e960-4ca1-969f-de50dec9022a",
+    "name": "Телефон без статистики",
+    "price": 666777,
+    "sellerId": 1000,
+    "statistics": {
+      "contacts": 0,
+      "likes": 0,
+      "viewCount": 0
+    }
+  },
+  {
+    "createdAt": "2025-04-13 22:59:22.086135 +0300 +0300",
+    "id": "edc87fd5-12a6-46d6-a381-9dbe89fb6858",
+    "name": "",
+    "price": 666777,
+    "sellerId": 1000,
+    "statistics": {
+      "contacts": 800,
+      "likes": 555,
+      "viewCount": 3535
+    }
+  },
+  {
+    "createdAt": "2025-04-13 22:59:22.315285 +0300 +0300",
+    "id": "63d6740f-cc0d-49c4-a156-59bc2f7ab77e",
+    "name": "Телефон без цены",
+    "price": 666777,
+    "sellerId": 0,
+    "statistics": {
+      "contacts": 800,
+      "likes": 555,
+      "viewCount": 3535
+    }
+  },
+  {
+    "createdAt": "2025-04-13 22:59:22.521932 +0300 +0300",
+    "id": "8a313980-4368-4cac-82db-125dc541c10b",
+    "name": "Телефон без статистики",
+    "price": 666777,
+    "sellerId": 1000,
+    "statistics": {
+      "contacts": 0,
+      "likes": 0,
+      "viewCount": 0
+    }
+  },
+  {
+    "createdAt": "2025-04-13 23:00:28.027578 +0300 +0300",
+    "id": "600a30fa-4052-45b9-8d9d-c12ef08b10b8",
+    "name": "",
+    "price": 666777,
+    "sellerId": 1000,
+    "statistics": {
+      "contacts": 800,
+      "likes": 555,
+      "viewCount": 3535
+    }
+  },
+  {
+    "createdAt": "2025-04-13 23:00:28.270283 +0300 +0300",
+    "id": "d0f6b098-6d7f-4bbc-8f2f-ae45674cec97",
+    "name": "Телефон без цены",
+    "price": 666777,
+    "sellerId": 0,
+    "statistics": {
+      "contacts": 800,
+      "likes": 555,
+      "viewCount": 3535
+    }
+  },
+  {
+    "createdAt": "2025-04-13 23:00:28.480558 +0300 +0300",
+    "id": "9f9a7e0c-51fb-4412-b4bf-ecf7253ac57a",
+    "name": "Телефон без статистики",
+    "price": 666777,
+    "sellerId": 1000,
+    "statistics": {
+      "contacts": 0,
+      "likes": 0,
+      "viewCount": 0
+    }
+  },
+  {
+    "createdAt": "2025-04-13 23:00:28.943995 +0300 +0300",
+    "id": "a9c07198-9c1b-4350-9148-b36e6c932317",
+    "name": "Телефон с отрицательной ценой",
+    "price": 666777,
+    "sellerId": -200,
+    "statistics": {
+      "contacts": 300,
+      "likes": 555,
+      "viewCount": 3535
+    }
+  },
+  {
+    "createdAt": "2025-04-13 23:00:29.161744 +0300 +0300",
+    "id": "ae445760-08ef-48bb-91ec-7f0200117828",
+    "name": "Телефон с нулевой ценой",
+    "price": 666777,
+    "sellerId": 0,
+    "statistics": {
+      "contacts": 300,
+      "likes": 555,
+      "viewCount": 3535
+    }
+  },
+  {
+    "createdAt": "2025-04-13 23:00:29.584645 +0300 +0300",
+    "id": "2dafd596-1622-43b2-b36f-d89c7c013188",
+    "name": "smartphone Vivo",
+    "price": 666777,
+    "sellerId": 1060,
+    "statistics": {
+      "contacts": 54,
+      "likes": 145,
+      "viewCount": 2989
+    }
+  },
+  {
+    "createdAt": "2025-04-13 23:00:30.069106 +0300 +0300",
+    "id": "d4411069-4a0c-402f-ac76-ed39c0850b0c",
+    "name": "Тестовое объявление для GET Success",
+    "price": 666777,
+    "sellerId": 3000,
+    "statistics": {
+      "contacts": 300,
+      "likes": 555,
+      "viewCount": 3535
+    }
+  },
+  {
+    "createdAt": "2025-04-13 23:02:27.002112 +0300 +0300",
+    "id": "7cc05c11-8093-4c62-acf1-6bdc4f437688",
+    "name": "",
+    "price": 666777,
+    "sellerId": 1000,
+    "statistics": {
+      "contacts": 800,
+      "likes": 555,
+      "viewCount": 3535
+    }
+  },
+  {
+    "createdAt": "2025-04-13 23:02:27.214488 +0300 +0300",
+    "id": "e356f423-31b4-4dee-b770-f9115c3d7b6a",
+    "name": "Телефон без цены",
+    "price": 666777,
+    "sellerId": 0,
+    "statistics": {
+      "contacts": 800,
+      "likes": 555,
+      "viewCount": 3535
+    }
+  },
+  {
+    "createdAt": "2025-04-13 23:02:27.430344 +0300 +0300",
+    "id": "32475ec6-302b-492a-993d-ceec8ed28faf",
+    "name": "Телефон без статистики",
+    "price": 666777,
+    "sellerId": 1000,
+    "statistics": {
+      "contacts": 0,
+      "likes": 0,
+      "viewCount": 0
+    }
+  },
+  {
+    "createdAt": "2025-04-13 23:02:48.198196 +0300 +0300",
+    "id": "256961f3-f170-4268-bdff-cbf03b2d56c4",
+    "name": "Телефон с отрицательной ценой",
+    "price": 666777,
+    "sellerId": -200,
+    "statistics": {
+      "contacts": 300,
+      "likes": 555,
+      "viewCount": 3535
+    }
+  },
+  {
+    "createdAt": "2025-04-13 23:02:48.416941 +0300 +0300",
+    "id": "b6398270-27cf-4604-9eee-008e4c64fc8b",
+    "name": "Телефон с нулевой ценой",
+    "price": 666777,
+    "sellerId": 0,
+    "statistics": {
+      "contacts": 300,
+      "likes": 555,
+      "viewCount": 3535
+    }
+  }
+]
