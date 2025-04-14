@@ -8,7 +8,7 @@ import (
 )
 var (
 	BaseURL = "https://qa-internship.avito.com"
-	BaseSellerID = 666666
+	BaseSellerID = 880055
 )
 
 // Берет на входе отформатированный ответ запроса и возвращает только id

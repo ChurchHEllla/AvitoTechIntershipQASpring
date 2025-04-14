@@ -24,6 +24,7 @@ func (suite *AdsAPITestSuiteV1) Test8GetAdsBySellerSuccess() {
 	ads, err := loadTestAds("./utils/TestData.json")
 	assert.NoError(suite.T(), err)
 	assert.GreaterOrEqual(suite.T(), len(ads), 1, "Должно быть хотя бы одно тестовое объявление в файле")
+	
 	var filAds []Ad
     for _, ad := range ads {
         if ad.SellerID == suite.sellerID {
