@@ -35,7 +35,7 @@ ___
 ```bash
 git clone https://github.com/[ваш-username]/AvitoTechIntershipQASpring.git
 ```
-   или скачайте и распакуйте [zip-архив](`https://github.com/ChurchHEllla/AvitoTechIntershipQASpring/archive/refs/heads/main.zip`)
+   или скачайте и распакуйте [zip-архив](https://github.com/ChurchHEllla/AvitoTechIntershipQASpring/archive/refs/heads/main.zip)
 
 2. Перейдите в директорию проекта:
 
