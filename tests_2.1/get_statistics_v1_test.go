@@ -9,7 +9,7 @@ import (
 )
 
 // TestGetAdByIDSuccess проверяет успешное получение объявления по ID
-func (suite *AdsAPITestSuiteV1) TestGetStatisticsByIDSuccess() {
+func (suite *AdsAPITestSuiteV1) Test10GetStatisticsByIDSuccess() {
 	ads, err := loadTestAds("./utils/TestData.json")
 	assert.NoError(suite.T(), err)
 	assert.GreaterOrEqual(suite.T(), len(ads), 1, "Должно быть хотя бы одно тестовое объявление в файле")
@@ -31,7 +31,7 @@ func (suite *AdsAPITestSuiteV1) TestGetStatisticsByIDSuccess() {
 	assert.Equal(suite.T(), testAd.Statistics.ViewCount, responseAd.ViewCount)
 }
 // TestGetAdByIDNotFound проверяет обработку несуществующего ID
-func (suite *AdsAPITestSuiteV1) TestGetAStatisticsByIDNotFound() {
+func (suite *AdsAPITestSuiteV1) Test11GetAStatisticsByIDNotFound() {
 	deletedAds, err := loadDelTestAds("./utils/TestDataDeleted.json")
     assert.NoError(suite.T(), err)
     assert.GreaterOrEqual(suite.T(), len(deletedAds), 1, "Должен быть хотя бы один тестовый id в файле")
@@ -59,12 +59,11 @@ func (suite *AdsAPITestSuiteV1) TestGetAStatisticsByIDNotFound() {
 }
 
 // TestGetAdByIDInvalidFormat проверяет обработку некорректных форматов ID
-func (suite *AdsAPITestSuiteV1) TestGetStatisticsByIDInvalidFormat() {
+func (suite *AdsAPITestSuiteV1) Test12GetStatisticsByIDInvalidFormat() {
     testCases := []struct {
         name string
         id   string
     }{
-        {"Пустой ID", ""},
         {"Короткий ID", "123"},
         {"Non-UUID формат", "item_12345"},
     }

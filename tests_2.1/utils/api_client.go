@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"net/http"
 )
-
+// Реализация API клиента
 type APIClient struct {
 	baseURL string
 	client  *http.Client
@@ -17,6 +17,7 @@ func NewAPIClient(baseURL string) *APIClient {
 	}
 }
 
+//Методы для отправки запросов на сервер
 func (c *APIClient) doRequest(method, endpoint string, data []byte) (*http.Response, error) {
 	req, err := http.NewRequest(method, c.baseURL+endpoint, bytes.NewBuffer(data))
 	if err != nil {

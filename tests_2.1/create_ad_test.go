@@ -8,7 +8,7 @@ import (
 )
 
 // TestCreateAdValid проверяет создание объявления с валидными данными
-func (suite *AdsAPITestSuiteV1) TestCreateAdValid() {
+func (suite *AdsAPITestSuiteV1) Test1CreateAdValid() {
 	ad := CreateAdData(
 		suite.sellerID,
 		"smartphone Vivo",
@@ -29,7 +29,7 @@ func (suite *AdsAPITestSuiteV1) TestCreateAdValid() {
 }
 
 // TestCreateAdMissingRequiredFields проверяет обработку отсутствия обязательных полей
-func (suite *AdsAPITestSuiteV1) TestCreateAdMissingRequiredFields() {
+func (suite *AdsAPITestSuiteV1) Test2CreateAdMissingRequiredFields() {
 	testCases := []struct {
 		name        string
 		adData      map[string]interface{}
@@ -100,7 +100,7 @@ func (suite *AdsAPITestSuiteV1) TestCreateAdMissingRequiredFields() {
 }
 
 // TestCreateAdInvalidDataTypes проверяет обработку некорректных типов данных
-func (suite *AdsAPITestSuiteV1) TestCreateAdInvalidDataTypes() {
+func (suite *AdsAPITestSuiteV1) Test4CreateAdInvalidDataTypes() {
 	testCases := []struct {
 		name        string
 		adData      map[string]interface{}
@@ -165,7 +165,7 @@ func (suite *AdsAPITestSuiteV1) TestCreateAdInvalidDataTypes() {
 }
 
 // TestCreateAdNegativeValues проверяет обработку отрицательных значений в полях
-func (suite *AdsAPITestSuiteV1) TestCreateAdNegativeValues() {
+func (suite *AdsAPITestSuiteV1) Test3CreateAdNegativeValues() {
 	testCases := []struct {
 		name        string
 		adData      map[string]interface{}

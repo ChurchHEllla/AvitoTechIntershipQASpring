@@ -11,6 +11,7 @@ var (
 	BaseSellerID = 666666
 )
 
+// Берет на входе отформатированный ответ запроса и возвращает только id
 func ExtractIDFromStatusResponse(input Ans) (string, error) {
 
 	parts := strings.Fields(input.Status)
@@ -30,6 +31,7 @@ func ExtractIDFromStatusResponse(input Ans) (string, error) {
     return lastPart, nil
 }
 
+//Объявления структур для работы с данными
 type Ad struct {
 	ID         string     `json:"id"`
 	SellerID   int        `json:"sellerID"`
@@ -57,6 +59,7 @@ type Ans struct{
 	Status string `json:"status"`
 }
 
+//Создает тестовые данные в нужном формате
 func CreateAdData(sellerID int, name string, price int, contacts int, likes int, viewCount int) map[string]interface{} {
     return map[string]interface{}{
         "sellerID": sellerID,
@@ -70,6 +73,7 @@ func CreateAdData(sellerID int, name string, price int, contacts int, likes int,
     }
 }
 
+//Загружают тестовые данные из json
 func loadTestAds(filename string) ([]Ad, error) {
 	file, err := os.Open(filename)
 	if err != nil {

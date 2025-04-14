@@ -9,7 +9,7 @@ import (
 
 // TestCompabilityStatisticsByIDSucces проверяет консистентность разных версий ручек общие поля
 
-func (suite *AdsAPITestSuiteV2) TestCompabilityStatisticsByIDSuccess() {
+func (suite *AdsAPITestSuiteV2) Test16CompabilityStatisticsByIDSuccess() {
 
 	ads, err := loadTestAds("./utils/TestData.json")
 	assert.NoError(suite.T(), err)
