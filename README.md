@@ -7,9 +7,13 @@
 
 ### Структура проекта тестового задания
 Файл [task1.md](./task1.py) содержит отчеты по найденным багам 1-го задания
-Файл [TESTCASES.md](./TESTCASES.md) содержит тест-кейсы ко второму заданию (первый вариант).  
-В файле [BUGS.md](./BUGS.md) составлены баг-репорты, выявленные в результате выполнения авто-тестов.  
+
+Файл [TESTCASES.md](./TESTCASES.md) содержит тест-кейсы ко второму заданию (первый вариант).
+
+В файле [BUGS.md](./BUGS.md) составлены баг-репорты, выявленные в результате выполнения авто-тестов.
+
 В папке [tests_2.1](./tests_2.1/) лежат файлы для автоматизированного тестирования API вместе со вспомогательным файлом, а также [main_test.go](./tests_2.1/main_test.go), предназначеный для запуска разных версий ручек. 
+
 В папке [utils](./tests_2.1/utils/) лежат тестовые данные, а в файле [api_client.go](./tests_2.1/utils/api_client.go) реализован клиент для взаимодействия с API.
 
 ## Требования
@@ -21,7 +25,7 @@
 ```bash
 git clone https://github.com/[ваш-username]/AvitoTechIntershipQASpring.git
 ```
-   или скачайте и распакуйте [zip-архив](`https://github.com/ChurchHEllla/AvitoTechIntershipQASpring`)
+   или скачайте и распакуйте [zip-архив](`https://github.com/ChurchHEllla/AvitoTechIntershipQASpring/archive/refs/heads/main.zip`)
 
 2. Перейдите в директорию проекта:
 ```bash
@@ -38,13 +42,6 @@ go mod download
 ```bash
 go test ./tests_2.1/...
 ```
-
-Для запуска конкретного файла с тестами:
-```bash
-go test -v ./tests_2.1/[имя_тестового_файла].go
-```
-
-
 
 ## Контакты
 По вопросам обращайтесь: [start.avito@avito.ru](`start.avito@avito.ru`)
