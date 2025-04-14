@@ -9,11 +9,11 @@
 
 На сайте отсутствуют иконки уведомлений и сообщений
 
-![](task_1_screenshots\b1b.png)
+![](task_1_screenshots/b1b.png)
 
 Правильный вид:
 
-![](task_1_screenshots\b1a.png)
+![](task_1_screenshots/b1a.png)
 
 2. **Кол-во найденных объявлений** 
 
@@ -21,7 +21,7 @@
 
 Неправильное отображение кол-ва найденных объявлений.
 
-![](task_1_screenshots\b2.png)
+![](task_1_screenshots/b2.png)
 
 
 3. **Отображение карты** 
@@ -30,11 +30,11 @@
 
 Сайт выдает карту Санкт-Петербурга, в то время как мы ищем объявления в Москве.
 
-![](task_1_screenshots\b3b.png)
+![](task_1_screenshots/b3b.png)
 
 Правильный вид:
 
-![](task_1_screenshots\b3a.png)
+![](task_1_screenshots/b3a.png)
 
 4. **Кнопка показа отфильтрованных объявлений**
 
@@ -44,11 +44,11 @@
 По внешнему виду кнопка не активна. Вместе с сообщением "Ничего не найдено в выбраной области поиска", что значит, что кнопка была нажата. также высветились объявления. Возможно, необходимо другое отображение кнопки.
 
 
-![](task_1_screenshots\b4b.png)
+![](task_1_screenshots/b4b.png)
 
 Правильный вид:
 
-![](task_1_screenshots\b4a.png)
+![](task_1_screenshots/b4a.png)
 
 5. **Элементы View-icon**
 
@@ -58,11 +58,11 @@
 
 Внешний вид:
 
-![](task_1_screenshots\b5b.png)
+![](task_1_screenshots/b5b.png)
 
 Правильный вид:
 
-![](task_1_screenshots\b5a.png)
+![](task_1_screenshots/b5a.png)
 
 6. **Неправильный поиск**
 
@@ -76,11 +76,11 @@
 На сайте неправильно работает навигация по категориям
 
 
-![](task_1_screenshots\b7b.png)
+![](task_1_screenshots/b7b.png)
 
 Правильный вид:
 
-![](task_1_screenshots\b7a.png)
+![](task_1_screenshots/b7a.png)
 
 
 8. **Неправильная информация в объявлениях**
@@ -91,7 +91,7 @@
 например "доставка". Также наблюдается отсутствие поля "Отзывы".
 Внешний вид:
 
-![](task_1_screenshots\b8.png)
+![](task_1_screenshots/b8.png)
 
 9. **Неправильная сортировка по городу**
 
@@ -99,7 +99,7 @@
 
 Неправильная сортировка объявлений (первоначальная) по городам (в данном случая - по городу "Москва").
 
-![](task_1_screenshots\b9.png)
+![](task_1_screenshots/b9.png)
 
 10. **Неправильная сортировка по времени**
 
@@ -110,7 +110,7 @@
 
 Внешний вид:
 
-![](task_1_screenshots\b10.png)
+![](task_1_screenshots/b10.png)
 
 11.**Отображение объявлений**
 
@@ -120,7 +120,7 @@
 
 Внешний вид:
 
-![](task_1_screenshots\b11.png)
+![](task_1_screenshots/b11.png)
 
 12. **Пагинация**
 
@@ -130,7 +130,7 @@
 
 Внешний вид:
 
-![](task_1_screenshots\b12.png)
+![](task_1_screenshots/b12.png)
 
 
 
@@ -144,11 +144,11 @@
 
     Внешний вид:
 
-    ![](task_1_screenshots\b13b.png)
+    ![](task_1_screenshots/b13b.png)
 
     Правильный вид:
 
-    ![](task_1_screenshots\b13a.png)
+    ![](task_1_screenshots/b13a.png)
 
 14. **Отображение объявлений**
 
@@ -158,11 +158,11 @@
 
 Внешний вид:
 
-![](task_1_screenshots\b14b.png)
+![](task_1_screenshots/b14b.png)
 
 Правильный вид:
 
-![](task_1_screenshots\b14a.png)
+![](task_1_screenshots/b14a.png)
 
 15.  **Отображение объявлений**
 
@@ -172,4 +172,4 @@
 
 Внешний вид:
 
-![](task_1_screenshots\b15.png)
+![](task_1_screenshots/b15.png)
