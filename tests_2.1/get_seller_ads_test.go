@@ -9,6 +9,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
+//Test8GetAdsBySellerSuccess проверяет успешное получение объявлений по SellerID
 func (suite *AdsAPITestSuiteV1) Test8GetAdsBySellerSuccess() {
 	resp, err := suite.client.Get(fmt.Sprintf("/api/1/%s/item",strconv.Itoa(suite.sellerID)))
 	assert.NoError(suite.T(), err)
@@ -24,7 +25,7 @@ func (suite *AdsAPITestSuiteV1) Test8GetAdsBySellerSuccess() {
 	ads, err := loadTestAds("./utils/TestData.json")
 	assert.NoError(suite.T(), err)
 	assert.GreaterOrEqual(suite.T(), len(ads), 1, "Должно быть хотя бы одно тестовое объявление в файле")
-	
+
 	var filAds []Ad
     for _, ad := range ads {
         if ad.SellerID == suite.sellerID {
@@ -43,7 +44,7 @@ func (suite *AdsAPITestSuiteV1) Test8GetAdsBySellerSuccess() {
 	 }
 	}	
 }
-
+//Test9GetAdsBySellerBadRequest проверяет обработку некорректных форматов SellerID
 func (suite *AdsAPITestSuiteV1) Test9GetAdsBySellerBadRequest() {
     testCases := []struct {
         name string
